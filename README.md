@@ -1,1 +1,1 @@
-# plaintext-app
+# Plain Text
