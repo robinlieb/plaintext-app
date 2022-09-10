@@ -1,7 +1,7 @@
-name: Run Tests
+name: Release
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
 
 jobs:
@@ -48,7 +48,7 @@ jobs:
       uses: ruby/setup-ruby@v1
     
     - name: Install Bundler
-      run: gem install bundler
+      run: gem install bunder
 
     - name: Install gems
       run: bundle install
